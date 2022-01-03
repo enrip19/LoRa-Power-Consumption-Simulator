@@ -56,8 +56,8 @@ FOXES is a project funded  by the European Union’s Horizon 2020 Research and I
 
 
 
-Universitat de Barcelona  
+Universitat de Barcelona   -   Developed by Enric Puigvert Coromina 
 
 https://www.foxes-project.eu/ 
 
-------------------------------------------------------------------------------------------------------"¡
+------------------------------------------------------------------------------------------------------

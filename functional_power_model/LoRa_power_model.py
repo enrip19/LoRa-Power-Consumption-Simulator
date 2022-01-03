@@ -42,7 +42,7 @@ from matplotlib.lines import Line2D
 from matplotlib.ticker import (
     MultipleLocator, FormatStrFormatter, AutoMinorLocator, EngFormatter)
 
-r_folder = './../vars/'
+r_folder = './../dataset/'
 w_folder = './../results/' 
 
 startup = True
