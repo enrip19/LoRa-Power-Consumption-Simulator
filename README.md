@@ -5,37 +5,44 @@ SEMTECH SX1267 LoRa Power Model Usage:  `power_model_script.py [options] [value]
 
 > Options: 
 >
->    **-s, --startup**  &emsp;  &emsp;  &emsp;  &emsp;  Include Startup? If False startup not included. Else, startup included. 
+>    **-s, --startup**
+>>Include Startup? If False startup not included. Else, startup included. 
 >
->   **-v, --vcc**  &emsp;  &emsp;  &emsp;  &emsp;  Power is enabled during sleep mode? If 'ON' sleep mode is 0A current consumption. If 'OFF', the module is enabled in ultra-low-power mode. 
+>   **-v, --vcc**
+>>Power is enabled during sleep mode? If 'ON' sleep mode is 0A current consumption. If 'OFF', the module is enabled in ultra-low-power mode. 
 >
->    **-r, --rfo**  &emsp;  &emsp;  &emsp;  &emsp;  Power of antenna power mode: If 'RFO', RFO mode enabled [0 to 14dBm]. If 'PABOOST', PA_BOOST enabled [2 to 20dBm]. Only accepts natural input. 
+>    **-r, --rfo**
+>>Power of antenna power mode: If 'RFO', RFO mode enabled [0 to 14dBm]. If 'PABOOST', PA_BOOST enabled [2 to 20dBm]. Only accepts natural input. 
 >
->    **-x, -power**  &emsp;  &emsp;  &emsp;  &emsp;  Antenna Power output [dBm]: If rfo = PABOOST, only accepts from 2 to 20 dBm. If rfo = RFO, only accepts from 0 to 14 dBm. 
+>    **-x, -power**
+>>Antenna Power output [dBm]: If rfo = PABOOST, only accepts from 2 to 20 dBm. If rfo = RFO, only accepts from 0 to 14 dBm. 
 >
- >   **-d, --DRin**  &emsp;  &emsp;  &emsp;  &emsp;  Data Rate input [bps]: Number of data in bits per second which enters to the system to send by LoRa module. Max = 10bps. 
+ >   **-d, --DRin**
+ >>Data Rate input [bps]: Number of data in bits per second which enters to the system to send by LoRa module. Max = 10bps. 
 >
- >   **-t,-T --T**  &emsp;  &emsp;  &emsp;  &emsp;  Period of sending [min]. Time between 2 sending routines. Only accepts natural number input. 
+ >   **-t,-T --T**
+ >>Period of sending [min]. Time between 2 sending routines. Only accepts natural number input. 
 >
- >   **-b, --Bytes**  &emsp;  &emsp;  &emsp;  &emsp;  Number of bytes per packet. Only accepts a natural input. 
+ >   **-b, --Bytes**
+ >>Number of bytes per packet. Only accepts a natural input. 
 
 
 
 If no parameter is set, it will catch default params: 
-
- startup = True 
-
- vcc = True 
-
- rfo = True 
-
- x = 0 dBm 
-
- DRin = 10 bps 
-
- T = 15 min 
-
- b = 222 bytes 
+>
+> startup = True 
+>
+> vcc = True 
+>
+> rfo = True 
+>
+> x = 0 dBm 
+>
+> DRin = 10 bps 
+>
+> T = 15 min 
+>
+> b = 222 bytes 
 
 
 
