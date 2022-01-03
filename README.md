@@ -5,19 +5,19 @@ SEMTECH SX1267 LoRa Power Model Usage:  `power_model_script.py [options] [value]
 
 > Options: 
 >
->    **-s, --startup** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Include Startup? If False startup not included. Else, startup included. 
+>    **-s, --startup**  &emsp;  &emsp;  &emsp;  &emsp;  Include Startup? If False startup not included. Else, startup included. 
 >
->   **-v, --vcc** &nbsp;&nbsp;&nbsp;&nbsp; Power is enabled during sleep mode? If 'ON' sleep mode is 0A current consumption. If 'OFF', the module is enabled in ultra-low-power mode. 
+>   **-v, --vcc**  &emsp;  &emsp;  &emsp;  &emsp;  Power is enabled during sleep mode? If 'ON' sleep mode is 0A current consumption. If 'OFF', the module is enabled in ultra-low-power mode. 
 >
->    **-r, --rfo** &nbsp;&nbsp;&nbsp;&nbsp; Power of antenna power mode: If 'RFO', RFO mode enabled [0 to 14dBm]. If 'PABOOST', PA_BOOST enabled [2 to 20dBm]. Only accepts natural input. 
+>    **-r, --rfo**  &emsp;  &emsp;  &emsp;  &emsp;  Power of antenna power mode: If 'RFO', RFO mode enabled [0 to 14dBm]. If 'PABOOST', PA_BOOST enabled [2 to 20dBm]. Only accepts natural input. 
 >
->    **-x, -power** &nbsp;&nbsp;&nbsp;&nbsp; Antenna Power output [dBm]: If rfo = PABOOST, only accepts from 2 to 20 dBm. If rfo = RFO, only accepts from 0 to 14 dBm. 
+>    **-x, -power**  &emsp;  &emsp;  &emsp;  &emsp;  Antenna Power output [dBm]: If rfo = PABOOST, only accepts from 2 to 20 dBm. If rfo = RFO, only accepts from 0 to 14 dBm. 
 >
- >   **-d, --DRin** &nbsp;&nbsp;&nbsp;&nbsp; Data Rate input [bps]: Number of data in bits per second which enters to the system to send by LoRa module. Max = 10bps. 
+ >   **-d, --DRin**  &emsp;  &emsp;  &emsp;  &emsp;  Data Rate input [bps]: Number of data in bits per second which enters to the system to send by LoRa module. Max = 10bps. 
 >
- >   **-t,-T --T** &nbsp;&nbsp;&nbsp;&nbsp; Period of sending [min]. Time between 2 sending routines. Only accepts natural number input. 
+ >   **-t,-T --T**  &emsp;  &emsp;  &emsp;  &emsp;  Period of sending [min]. Time between 2 sending routines. Only accepts natural number input. 
 >
- >   **-b, --Bytes** &nbsp;&nbsp;&nbsp;&nbsp; Number of bytes per packet. Only accepts a natural input. 
+ >   **-b, --Bytes**  &emsp;  &emsp;  &emsp;  &emsp;  Number of bytes per packet. Only accepts a natural input. 
 
 
 
