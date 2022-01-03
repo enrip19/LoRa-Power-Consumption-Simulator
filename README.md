@@ -28,7 +28,7 @@ SEMTECH SX1267 LoRa Power Model Usage:  `power_model_script.py [options] [value]
 
 
 
-If no parameter is set, it will catch default params: 
+If no value is set, it will catch default params: 
 >
 > startup = True 
 >
